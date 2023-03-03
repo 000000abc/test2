@@ -1,17 +1,14 @@
 {
-    "name": "liwanyi/test2",
-    "require": {
-        "tigerb/think-phpunit": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Liwanyi\\Test2\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "20151627lwi",
-            "email": "3357702725@qq.com"
-        }
-    ]
-}
+        "name": "000000abc/test2", 
+        "description": "A", 
+        "require": {
+            "php": "^7.2",
+        }，
+        "authors": [   
+              {
+                "name": "name",
+                "email": "name@163.com"
+              }       
+        ],
+        "license": "MIT"，
+    }
