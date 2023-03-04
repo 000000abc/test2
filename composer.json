@@ -1,14 +1,22 @@
 {
-        "name": "000000abc/test2", 
-        "description": "A", 
-        "require": {
-            "php": "^7.2",
-        },
-        "authors": [   
-              {
-                "name": "name",
-                "email": "name@163.com"
-              }       
-        ],
-        "license": "MIT",
+    "name": "liwanyi/test2",
+    "description": "Talkmed PHP Framework",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "augdai",
+            "email": "augdai@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Core\\Framework\\": "src/Core/Framework"
+        }
     }
+}
